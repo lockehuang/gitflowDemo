@@ -25,6 +25,10 @@
     
     //马上到！我的第一个新功能
     [[DBHelper instanceHelper] display:100];
+    
+    //releaes bug test
+    
+    //hotfix bug test
 }
 
 

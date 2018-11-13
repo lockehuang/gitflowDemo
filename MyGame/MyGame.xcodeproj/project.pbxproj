@@ -13,6 +13,7 @@
 		4558F9562154EBA600EC89E4 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 4558F9552154EBA600EC89E4 /* Assets.xcassets */; };
 		4558F9592154EBA600EC89E4 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 4558F9572154EBA600EC89E4 /* LaunchScreen.storyboard */; };
 		4558F95C2154EBA600EC89E4 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 4558F95B2154EBA600EC89E4 /* main.m */; };
+		45F47280219A6B450078654A /* DBHelper.m in Sources */ = {isa = PBXBuildFile; fileRef = 45F4727F219A6B450078654A /* DBHelper.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -26,6 +27,8 @@
 		4558F9582154EBA600EC89E4 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		4558F95A2154EBA600EC89E4 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		4558F95B2154EBA600EC89E4 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		45F4727E219A6B450078654A /* DBHelper.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = DBHelper.h; sourceTree = "<group>"; };
+		45F4727F219A6B450078654A /* DBHelper.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = DBHelper.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -67,6 +70,8 @@
 				4558F9572154EBA600EC89E4 /* LaunchScreen.storyboard */,
 				4558F95A2154EBA600EC89E4 /* Info.plist */,
 				4558F95B2154EBA600EC89E4 /* main.m */,
+				45F4727E219A6B450078654A /* DBHelper.h */,
+				45F4727F219A6B450078654A /* DBHelper.m */,
 			);
 			path = MyGame;
 			sourceTree = "<group>";
@@ -144,6 +149,7 @@
 				4558F9512154EBA300EC89E4 /* ViewController.m in Sources */,
 				4558F95C2154EBA600EC89E4 /* main.m in Sources */,
 				4558F94E2154EBA300EC89E4 /* AppDelegate.m in Sources */,
+				45F47280219A6B450078654A /* DBHelper.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};

@@ -8,6 +8,8 @@
 
 #import "ViewController.h"
 
+#import "DBHelper.h"
+
 @interface ViewController ()
 
 @end
@@ -16,7 +18,15 @@
 
 - (void)viewDidLoad {
     [super viewDidLoad];
-    // Do any additional setup after loading the view, typically from a nib.
+    
+    
+    //code
+    self.view.backgroundColor = [UIColor darkGrayColor];
+    
+    //马上到！我的第一个新功能
+    [[DBHelper instanceHelper] display:100];
+    
+    //releaes bug test
 }
 
 

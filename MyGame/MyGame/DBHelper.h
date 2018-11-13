@@ -12,9 +12,11 @@ NS_ASSUME_NONNULL_BEGIN
 
 @interface DBHelper : NSObject
 
+
 + (instancetype)instanceHelper;
 
 - (void)display:(NSInteger) code;
+
 
 @end
 

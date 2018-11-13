@@ -14,7 +14,7 @@ NS_ASSUME_NONNULL_BEGIN
 
 + (instancetype)instanceHelper;
 
-- (void)display;
+- (void)display:(NSInteger) code;
 
 @end
 

@@ -24,7 +24,7 @@
     self.view.backgroundColor = [UIColor darkGrayColor];
     
     //马上到！我的第一个新功能
-    [[DBHelper instanceHelper] display];
+    [[DBHelper instanceHelper] display:100];
 }
 
 

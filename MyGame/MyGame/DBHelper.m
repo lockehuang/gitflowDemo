@@ -21,8 +21,8 @@
     return helper;
 }
 
-- (void)display{
-    NSLog(@"display");
+- (void)display:(NSInteger)code{
+    NSLog(@"display:%li",code);
 }
 
 @end

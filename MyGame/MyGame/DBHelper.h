@@ -14,6 +14,8 @@ NS_ASSUME_NONNULL_BEGIN
 
 + (instancetype)instanceHelper;
 
+- (void)display;
+
 @end
 
 NS_ASSUME_NONNULL_END

@@ -21,4 +21,8 @@
     return helper;
 }
 
+- (void)display{
+    NSLog(@"display");
+}
+
 @end

@@ -27,6 +27,8 @@
     [[DBHelper instanceHelper] display:100];
     
     //releaes bug test
+    
+    //hotfix bug test
 }
 
 

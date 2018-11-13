@@ -20,8 +20,6 @@
     
     //code
     self.view.backgroundColor = [UIColor darkGrayColor];
-    
-    //developer
 }
 
 

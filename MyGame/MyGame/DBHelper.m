@@ -10,4 +10,15 @@
 
 @implementation DBHelper
 
++ (instancetype)instanceHelper{
+    static DBHelper *helper;
+    @synchronized (self) {
+        static dispatch_once_t onceToken;
+        dispatch_once(&onceToken, ^{
+            helper = [[DBHelper alloc]init];
+        });
+    }
+    return helper;
+}
+
 @end

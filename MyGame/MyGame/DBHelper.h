@@ -12,6 +12,8 @@ NS_ASSUME_NONNULL_BEGIN
 
 @interface DBHelper : NSObject
 
++ (instancetype)instanceHelper;
+
 @end
 
 NS_ASSUME_NONNULL_END
